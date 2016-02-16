@@ -1,0 +1,23 @@
+{
+  "name": "code-challenge",
+  "version": "1.0.0",
+  "description": "angularjs-MVC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajesh-frontendengineer/code-challenge.git"
+  },
+  "author": "rajesh veldandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajesh-frontendengineer/code-challenge/issues"
+  },
+  "homepage": "https://github.com/rajesh-frontendengineer/code-challenge#readme",
+  "dependencies": {
+    "bower": "^1.7.7",
+    "express": "^4.13.4"
+  }
+}

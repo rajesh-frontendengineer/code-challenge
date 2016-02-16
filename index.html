@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Code - Challenge</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="WebContent/css/home.css" rel="stylesheet">
+</head>
+<body>
+<div ng-include="'WebContent/templates/header.html'"></div>
+
+    <section ui-view>
+    </section>
+
+<!-- require-config -->
+<script src="node_modules/requirejs/require.js"></script>
+<script src="WebContent/require-config.js"></script>
+<script src="WebContent/main.js"></script>
+</body>
+</html>
